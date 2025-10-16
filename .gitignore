@@ -1,2 +1,5 @@
 /node_modules
+/the-internet/cypress/e2e/1-getting-started/*.js
+/the-internet/cypress/e2e/2-advanced-examples.*js
+/the-internet/cypress/e2e/practiceTests/tests/assessmentNotes.*.txt
 .env
