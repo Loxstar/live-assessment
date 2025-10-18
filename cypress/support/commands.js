@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,3 +25,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('webLogin', (username, password) => {
+    const user = process.env.WEB_USERNAME;
+    const pw = process.env.WEB_PASSWORD;
+    const webURL = process.env.APP_URL;
+    cy.get(webURL);
+    cy.get(username).type(user);
+    cy.get(password).type(pw);
+})

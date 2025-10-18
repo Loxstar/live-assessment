@@ -1,0 +1,144 @@
+{
+  "cats": [
+    {
+      "cats": {
+        "id": "34428da0-3ecc-4c2a-ad1f-47cdbd2a1ab1",
+        "cat": "Peterbald",
+        "createdAt": "2025-01-10T03:40:57.005Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "e225b5e7-da90-44a2-9322-1bd8b3bd7168",
+        "cat": "Korat",
+        "createdAt": "2025-02-05T15:17:59.451Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "885dc46c-52dd-46bb-990a-9644bfec1d66",
+        "cat": "LaPerm",
+        "createdAt": "2025-09-07T07:31:28.868Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "c02d1285-bcde-49ef-ab91-e62463eefd57",
+        "cat": "Ojos Azules",
+        "createdAt": "2025-02-01T21:41:59.758Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "7b326578-5bc4-409c-af6c-4073b9d94f79",
+        "cat": "Exotic Shorthair",
+        "createdAt": "2024-10-24T23:02:33.206Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "367a2657-dc8e-4f7d-9898-8f918d3f5545",
+        "cat": "American Wirehair",
+        "createdAt": "2025-07-05T18:44:06.232Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "e0f2196d-5311-43eb-a2dd-2dd30cc3b663",
+        "cat": "Siberian",
+        "createdAt": "2025-05-22T05:06:50.971Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "43860238-7059-4055-bc50-435b08230393",
+        "cat": "American Curl",
+        "createdAt": "2025-04-27T13:23:44.469Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "f9fa41f1-6f78-48b6-9fc9-193c758ec82d",
+        "cat": "Abyssinian",
+        "createdAt": "2025-06-09T02:21:21.667Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "cc61c6cb-dbd1-49e5-a1ee-071dc5676117",
+        "cat": "Bengal",
+        "createdAt": "2024-10-31T04:55:52.572Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "1ba4697c-a23b-48d2-8941-998a58131a4e",
+        "cat": "Manx",
+        "createdAt": "2025-01-28T05:50:46.782Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "733c62f8-4a64-4e0a-b12e-f8db2543d5d6",
+        "cat": "Serengeti",
+        "createdAt": "2025-06-17T00:49:49.905Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "8b604006-8121-4af6-a201-45ad5f2a0066",
+        "cat": "Burmese",
+        "createdAt": "2025-08-15T08:40:31.613Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "2fd2e38c-b102-46e8-86cf-c9f3a3df0079",
+        "cat": "Japanese Bobtail",
+        "createdAt": "2024-12-07T08:27:28.631Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "ddec2a0c-c931-4b61-bd26-0a2e9966cde6",
+        "cat": "Siberian",
+        "createdAt": "2024-12-20T05:56:06.014Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "aaf475ab-2cb6-4e06-88df-9fa11cbcf0c9",
+        "cat": "Toyger",
+        "createdAt": "2025-01-20T03:18:04.662Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "98497aeb-74c3-4ab6-a3bc-d9cc65922c23",
+        "cat": "Snowshoe",
+        "createdAt": "2025-09-27T15:55:55.651Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "1f30771b-698a-4fbf-a2cc-ff0def12bfb5",
+        "cat": "Korat",
+        "createdAt": "2025-02-28T06:05:59.342Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "b6edd246-cfff-426e-9781-a283d17f4ebb",
+        "cat": "Russian Blue",
+        "createdAt": "2025-07-27T10:05:28.041Z"
+      }
+    },
+    {
+      "cats": {
+        "id": "c7535af3-11a8-4b80-8919-444d77953e22",
+        "cat": "Donskoy",
+        "createdAt": "2025-08-14T02:58:47.623Z"
+      }
+    }
+  ]
+}
