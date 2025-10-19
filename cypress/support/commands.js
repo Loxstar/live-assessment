@@ -1,4 +1,4 @@
-require('dotenv').config();
+// import 'dotenv/config'
 
 // ***********************************************
 // This example commands.js shows you how to
@@ -26,11 +26,31 @@ require('dotenv').config();
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('webLogin', (username, password) => {
-    const user = process.env.WEB_USERNAME;
-    const pw = process.env.WEB_PASSWORD;
-    const webURL = process.env.APP_URL;
-    cy.get(webURL);
-    cy.get(username).type(user);
-    cy.get(password).type(pw);
-})
+Cypress.Commands.add('apiLogin', (username, password) => {
+    cy.session(username, () => {
+        cy.request('POST', `/api/login`, {
+            username,
+            password,
+        })
+    }).then((response) => {
+        expect(response.status).to.eq(200)
+    });
+});
+
+
+Cypress.Commands.add('webLogin', (username, password, domain, userInput, pwInput, submit, subDom) => {
+    cy.session(
+        [username, password],
+        () => {
+            cy.visit(domain)
+            cy.get(userInput).type(username)
+            cy.get(pwInput).type(password)
+            cy.get(submit).click()
+        },
+        {
+            validate() {
+                cy.request(subDom).its('status').should('eq', 200);
+            },
+        }
+    );
+});

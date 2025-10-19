@@ -1,17 +1,18 @@
+///<reference types='cypress'/>
 import { faker } from '@faker-js/faker';
 import fs from 'fs';
 
-function generateAnimals(numUsers) {
+function generateAnimals(numAnimals) {
     const bears = [];
     const birds = [];
     const cats = [];
     const animals = [];
-    for (let i = 0; i < numUsers; i++) {
+    for (let i = 0; i < numAnimals; i++) {
         bears.push({
             id: faker.string.uuid(),
             bear: faker.animal.bear(),
             createdAt: faker.date.past()
-        });
+        }),
         animals.push({ bears: bears[i] });
         birds.push({
             id: faker.string.uuid(),
