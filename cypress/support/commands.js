@@ -26,31 +26,31 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('apiLogin', (username, password) => {
-    cy.session(username, () => {
-        cy.request('POST', `/api/login`, {
-            username,
-            password,
-        })
-    }).then((response) => {
-        expect(response.status).to.eq(200)
-    });
-});
+// Cypress.Commands.add('apiLogin', (username, password, domain) => {
+//     cy.session(username, () => {
+//         cy.request("POST", domain, {
+//             username,
+//             password,
+//         })
+//     }).then((response) => {
+//         expect(response.status).to.eq(200)
+//     });
+// });
 
 
-Cypress.Commands.add('webLogin', (username, password, domain, userInput, pwInput, submit, subDom) => {
-    cy.session(
-        [username, password],
-        () => {
-            cy.visit(domain)
-            cy.get(userInput).type(username)
-            cy.get(pwInput).type(password)
-            cy.get(submit).click()
-        },
-        {
-            validate() {
-                cy.request(subDom).its('status').should('eq', 200);
-            },
-        }
-    );
-});
+// Cypress.Commands.add('webLogin', (username, password, domain, userInput, pwInput, submit, subDom) => {
+//     cy.session(
+//         [username, password],
+//         () => {
+//             cy.visit(domain)
+//             cy.get(userInput).type(username)
+//             cy.get(pwInput).type(password)
+//             cy.get(submit).click()
+//         },
+//         {
+//             validate() {
+//                 cy.request(subDom).its('status').should('eq', 200);
+//             },
+//         }
+//     );
+// });

@@ -13,8 +13,9 @@ module.exports = defineConfig({
     ViewportWidth: 1440,
     ViewportHeight: 900,
     chromeWebSecurity: true,
+    failOnStatusCode: false,
     video: false,
-    trashAssetsBeforeRuns: true,
+    watchForFileChanges: false
   },
   },
 );  

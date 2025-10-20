@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@faker-js/faker": "^10.1.0",
-    "cypress": "^15.4.0",
+    "cypress": "^15.5.0",
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
@@ -10,9 +10,9 @@
     "json-server": "^1.0.0-beta.3"
   },
   "scripts": {
-    "startCatDB": "json-server --watch /Users/loxstar/live-assessment/cypress/fixtures/catData.json --port 3000",
-    "startBirdDB": "json-server --watch /Users/loxstar/live-assessment/cypress/fixtures/birdData.json --port 3001",
-    "startBearDB": "json-server --watch /Users/loxstar/live-assessment/cypress/fixtures/bearData.json --port 3002"
+    "startCatDB": "json-server /Users/loxstar/live-assessment/cypress/fixtures/catData.json --port 3000",
+    "startBirdDB": "json-server /Users/loxstar/live-assessment/cypress/fixtures/birdData.json --port 3001",
+    "startBearDB": "json-server /Users/loxstar/live-assessment/cypress/fixtures/bearData.json --port 3002"
   },
   "type": "module",
   "name": "live-assessment",
