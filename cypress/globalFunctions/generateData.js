@@ -51,3 +51,5 @@ fs.writeFileSync('birdData.json', JSON.stringify(birdData, null, 2));
 fs.writeFileSync('catData.json', JSON.stringify(catData, null, 2));
 
 console.log('db.json generated with fake data!');
+
+module.exports = generateAnimals();
