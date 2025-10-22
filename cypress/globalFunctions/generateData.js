@@ -58,7 +58,8 @@ fs.writeFileSync('animal.json', JSON.stringify(animalData, null, 2));
 // fs.writeFileSync('birdData.json', JSON.stringify(birdData, null, 2));
 // fs.writeFileSync('catData.json', JSON.stringify(catData, null, 2));
 
-// Run node /Users/loxstar/live-assessment/cypress/globalFunctions/generateData.js to generate json file and then move to fixtures folder
+// Run node /Users/loxstar/live-assessment/cypress/globalFunctions/generateData.js 
+// to generate json file and then move to fixtures folder
 console.log('db.json generated with fake data!');
 
 module.exports = generateAnimals();
