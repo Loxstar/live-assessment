@@ -1,0 +1,484 @@
+{
+  "animals": [
+    {
+      "bears": {
+        "id": "ef0c5879-22d7-4eb1-b2ca-8d93a8ffb722",
+        "bear": "American black bear",
+        "createdAt": "2025-08-11T22:43:09.520Z"
+      },
+      "id": "e2e3"
+    },
+    {
+      "birds": {
+        "id": "e6388490-72df-4c81-b125-103be706366d",
+        "bird": "Cassin's Kingbird",
+        "createdAt": "2025-06-23T04:00:58.178Z"
+      },
+      "id": "c26c"
+    },
+    {
+      "cats": {
+        "id": "7c5a7125-8676-4e84-ad06-6f180f4c3632",
+        "cat": "Havana",
+        "createdAt": "2025-05-16T09:59:09.126Z"
+      },
+      "id": "1a1a"
+    },
+    {
+      "bears": {
+        "id": "5c5913a5-b87d-4ac9-867b-f8e01db310e3",
+        "bear": "Spectacled bear",
+        "createdAt": "2025-10-04T18:55:47.355Z"
+      },
+      "id": "08f2"
+    },
+    {
+      "birds": {
+        "id": "2f762b7e-782c-48f2-b363-e39e4ae5234c",
+        "bird": "Burrowing Owl",
+        "createdAt": "2025-09-03T21:46:30.616Z"
+      },
+      "id": "1348"
+    },
+    {
+      "cats": {
+        "id": "a0bdf5d3-ef10-45b0-8cb3-1559ff6d024e",
+        "cat": "Scottish Fold",
+        "createdAt": "2025-02-18T07:48:54.243Z"
+      },
+      "id": "2a04"
+    },
+    {
+      "bears": {
+        "id": "1da11cf5-e5ae-4fd7-9b2e-eae2b217b941",
+        "bear": "Sloth bear",
+        "createdAt": "2025-01-14T13:58:00.320Z"
+      },
+      "id": "d852"
+    },
+    {
+      "birds": {
+        "id": "c0eef61a-3dee-4056-805e-d21943785ee1",
+        "bird": "Willow Flycatcher",
+        "createdAt": "2025-05-14T14:37:17.162Z"
+      },
+      "id": "ff92"
+    },
+    {
+      "cats": {
+        "id": "c101a156-cd0f-4f3c-898f-23324c1c216d",
+        "cat": "Peterbald",
+        "createdAt": "2025-09-16T22:26:57.841Z"
+      },
+      "id": "0ad0"
+    },
+    {
+      "bears": {
+        "id": "3f82ef3e-b05f-483e-8a98-290877156dbb",
+        "bear": "Polar bear",
+        "createdAt": "2025-03-02T10:23:27.262Z"
+      },
+      "id": "c624"
+    },
+    {
+      "birds": {
+        "id": "b8ea01cd-70b5-4293-978e-5fb5cc17f96d",
+        "bird": "Eurasian Kestrel",
+        "createdAt": "2025-03-15T09:59:27.544Z"
+      },
+      "id": "898e"
+    },
+    {
+      "cats": {
+        "id": "c8517808-c7eb-47b2-ab6f-62ef37d76c78",
+        "cat": "Bombay",
+        "createdAt": "2025-03-19T15:38:25.547Z"
+      },
+      "id": "8cc0"
+    },
+    {
+      "bears": {
+        "id": "1edc5fbf-74d2-4b43-ac0a-de61a54753e3",
+        "bear": "American black bear",
+        "createdAt": "2024-11-02T01:20:28.360Z"
+      },
+      "id": "e8e1"
+    },
+    {
+      "birds": {
+        "id": "fc773272-566a-4e6f-ae4b-4d1e53e72607",
+        "bird": "American Pipit",
+        "createdAt": "2025-02-07T12:39:19.674Z"
+      },
+      "id": "4721"
+    },
+    {
+      "cats": {
+        "id": "609eba87-e708-4332-a6ea-93cc00992378",
+        "cat": "Tonkinese",
+        "createdAt": "2025-02-10T19:15:09.398Z"
+      },
+      "id": "2b38"
+    },
+    {
+      "bears": {
+        "id": "8260e6da-7271-4a92-8dde-3108dd8ec486",
+        "bear": "Sloth bear",
+        "createdAt": "2024-10-26T04:58:18.300Z"
+      },
+      "id": "346f"
+    },
+    {
+      "birds": {
+        "id": "d1672d0a-4ae1-4abc-b2be-8777c18e59df",
+        "bird": "Blue-footed Booby",
+        "createdAt": "2025-06-12T07:13:45.195Z"
+      },
+      "id": "7b6a"
+    },
+    {
+      "cats": {
+        "id": "b952ae9a-bb97-4ec4-877e-b0a759440b11",
+        "cat": "Birman",
+        "createdAt": "2025-09-28T18:56:58.599Z"
+      },
+      "id": "fccf"
+    },
+    {
+      "bears": {
+        "id": "ec5b76b0-d321-4e22-81ba-84ad5a222e8b",
+        "bear": "Spectacled bear",
+        "createdAt": "2024-10-26T13:47:44.358Z"
+      },
+      "id": "9acf"
+    },
+    {
+      "birds": {
+        "id": "09a34da5-f873-4c98-80f8-b7796798a225",
+        "bird": "Blue Jay",
+        "createdAt": "2025-03-21T12:01:39.154Z"
+      },
+      "id": "2e07"
+    },
+    {
+      "cats": {
+        "id": "2a9d0dea-a095-4ce7-b5a8-8ddbe7e13cec",
+        "cat": "Somali",
+        "createdAt": "2025-08-18T01:07:05.944Z"
+      },
+      "id": "524d"
+    },
+    {
+      "bears": {
+        "id": "78700031-b601-4e72-b05b-f5ee7b673bdd",
+        "bear": "Giant panda",
+        "createdAt": "2025-08-29T08:06:07.400Z"
+      },
+      "id": "5dcf"
+    },
+    {
+      "birds": {
+        "id": "381ece65-e68c-4f74-b165-8e2006007fb3",
+        "bird": "Brown Thrasher",
+        "createdAt": "2025-08-03T02:15:12.054Z"
+      },
+      "id": "184f"
+    },
+    {
+      "cats": {
+        "id": "35fd109a-3bf7-4f74-93ea-b0bfbd7f10aa",
+        "cat": "Donskoy",
+        "createdAt": "2025-06-04T22:13:25.980Z"
+      },
+      "id": "e983"
+    },
+    {
+      "bears": {
+        "id": "4630ca31-e85a-4a7e-a259-61a5c122d3e7",
+        "bear": "Asian black bear",
+        "createdAt": "2025-07-06T19:56:26.763Z"
+      },
+      "id": "24d2"
+    },
+    {
+      "birds": {
+        "id": "97c7132a-c929-4903-b4fa-bd7c6a5c56d9",
+        "bird": "Hooded Oriole",
+        "createdAt": "2025-03-31T03:41:13.312Z"
+      },
+      "id": "ded0"
+    },
+    {
+      "cats": {
+        "id": "e20cf563-5b74-47d0-b621-892f2d167e11",
+        "cat": "Maine Coon",
+        "createdAt": "2025-07-15T15:29:43.280Z"
+      },
+      "id": "30ab"
+    },
+    {
+      "bears": {
+        "id": "9611868d-aa16-47de-9f2b-aabf2eac8500",
+        "bear": "Brown bear",
+        "createdAt": "2024-12-17T07:04:02.326Z"
+      },
+      "id": "fb19"
+    },
+    {
+      "birds": {
+        "id": "c85c5461-6caa-48da-be89-f99b10c330a0",
+        "bird": "Carolina Wren",
+        "createdAt": "2025-04-20T03:32:05.716Z"
+      },
+      "id": "001a"
+    },
+    {
+      "cats": {
+        "id": "f918e9ee-d1f2-4673-885e-7e98a9101552",
+        "cat": "Siberian",
+        "createdAt": "2025-08-13T23:44:58.804Z"
+      },
+      "id": "f0cd"
+    },
+    {
+      "bears": {
+        "id": "6fdaeff3-6aab-4dca-b05f-89d563cd6ceb",
+        "bear": "Polar bear",
+        "createdAt": "2025-09-05T08:44:20.287Z"
+      },
+      "id": "f05d"
+    },
+    {
+      "birds": {
+        "id": "6d171ea6-44c8-4012-bb69-a29421542e15",
+        "bird": "Falcated Duck",
+        "createdAt": "2025-09-21T20:22:41.934Z"
+      },
+      "id": "7f62"
+    },
+    {
+      "cats": {
+        "id": "9f8eb08f-11cc-4a75-ae3f-7280cb4c4673",
+        "cat": "American Bobtail",
+        "createdAt": "2024-11-12T04:15:19.870Z"
+      },
+      "id": "767c"
+    },
+    {
+      "bears": {
+        "id": "1807152f-07c9-4dd4-b069-87644d4cbf16",
+        "bear": "American black bear",
+        "createdAt": "2025-04-20T00:52:02.189Z"
+      },
+      "id": "476e"
+    },
+    {
+      "birds": {
+        "id": "3fe6a324-9a37-4589-ab17-578958ab4b24",
+        "bird": "House Finch",
+        "createdAt": "2025-09-18T02:17:56.816Z"
+      },
+      "id": "b27d"
+    },
+    {
+      "cats": {
+        "id": "8570f639-1dce-4829-b6a2-933d3eaaed6e",
+        "cat": "Norwegian Forest Cat",
+        "createdAt": "2025-01-05T18:54:49.540Z"
+      },
+      "id": "1f82"
+    },
+    {
+      "bears": {
+        "id": "724876b8-a8dd-4a3f-9efd-d4c967a0ff68",
+        "bear": "Polar bear",
+        "createdAt": "2025-07-21T20:54:34.329Z"
+      },
+      "id": "cbbf"
+    },
+    {
+      "birds": {
+        "id": "62315a7c-344f-447d-9abc-f47cf6354c68",
+        "bird": "Lucy's Warbler",
+        "createdAt": "2025-09-21T14:33:32.381Z"
+      },
+      "id": "417a"
+    },
+    {
+      "cats": {
+        "id": "4d406490-2aea-417d-838b-ef250067b765",
+        "cat": "Japanese Bobtail",
+        "createdAt": "2025-03-18T20:49:10.112Z"
+      },
+      "id": "415e"
+    },
+    {
+      "bears": {
+        "id": "6d6faa60-86c7-409d-8105-24dea4f48884",
+        "bear": "Asian black bear",
+        "createdAt": "2025-01-21T15:21:13.161Z"
+      },
+      "id": "208c"
+    },
+    {
+      "birds": {
+        "id": "96211188-358b-45eb-a11e-174f0afe9c84",
+        "bird": "Streak-backed Oriole",
+        "createdAt": "2025-05-11T02:36:05.131Z"
+      },
+      "id": "d059"
+    },
+    {
+      "cats": {
+        "id": "af66d9ea-7da7-4f3a-8f93-b91db518a476",
+        "cat": "Balinese",
+        "createdAt": "2025-05-16T04:36:06.405Z"
+      },
+      "id": "40ba"
+    },
+    {
+      "bears": {
+        "id": "3cf27c8e-ba5d-4476-a2c9-2fdeca643693",
+        "bear": "Brown bear",
+        "createdAt": "2025-05-14T13:37:38.000Z"
+      },
+      "id": "2e11"
+    },
+    {
+      "birds": {
+        "id": "26d6c7ee-f3f6-47ff-9484-8b0d15076285",
+        "bird": "Brown Noddy",
+        "createdAt": "2025-01-03T10:19:17.497Z"
+      },
+      "id": "014d"
+    },
+    {
+      "cats": {
+        "id": "b0e29a38-487f-49b4-8b4a-8d4b4b338525",
+        "cat": "Somali",
+        "createdAt": "2025-08-11T08:46:08.020Z"
+      },
+      "id": "7c85"
+    },
+    {
+      "bears": {
+        "id": "5139658a-8c4f-4661-97f2-7344b969c039",
+        "bear": "American black bear",
+        "createdAt": "2025-05-09T18:07:46.979Z"
+      },
+      "id": "4182"
+    },
+    {
+      "birds": {
+        "id": "fa1dc8aa-de9b-4f15-bce6-ffe428298103",
+        "bird": "Cinnamon Teal",
+        "createdAt": "2025-04-18T11:16:47.279Z"
+      },
+      "id": "99b9"
+    },
+    {
+      "cats": {
+        "id": "629246c0-e28f-4ccc-a0cd-b28db008fefe",
+        "cat": "Abyssinian",
+        "createdAt": "2025-10-15T10:31:53.547Z"
+      },
+      "id": "23e5"
+    },
+    {
+      "bears": {
+        "id": "85677ac5-0884-4863-8df2-1b2219a43f4b",
+        "bear": "Polar bear",
+        "createdAt": "2024-11-16T14:57:11.573Z"
+      },
+      "id": "91a1"
+    },
+    {
+      "birds": {
+        "id": "3ba55257-ca33-4a72-b57a-ab58c0a1674a",
+        "bird": "Chinese Egret",
+        "createdAt": "2025-04-09T18:19:09.724Z"
+      },
+      "id": "3b74"
+    },
+    {
+      "cats": {
+        "id": "f0a3f8da-ab49-4f87-89d6-d2ef983b11ff",
+        "cat": "Selkirk Rex",
+        "createdAt": "2025-03-20T08:57:42.475Z"
+      },
+      "id": "5030"
+    },
+    {
+      "bears": {
+        "id": "20d6ccf9-eb98-4b36-bbd5-328d43dda209",
+        "bear": "American black bear",
+        "createdAt": "2024-12-17T07:04:05.481Z"
+      },
+      "id": "5564"
+    },
+    {
+      "birds": {
+        "id": "5f2c7bc2-3063-4e99-9662-7f1c3a2f0b88",
+        "bird": "Belted Kingfisher",
+        "createdAt": "2025-07-03T19:01:11.555Z"
+      },
+      "id": "8332"
+    },
+    {
+      "cats": {
+        "id": "80bd8682-47d0-41f7-93ee-df072561bd3e",
+        "cat": "Korat",
+        "createdAt": "2025-01-15T22:53:20.544Z"
+      },
+      "id": "598d"
+    },
+    {
+      "bears": {
+        "id": "07db9a45-fa2d-41b7-9a69-8cddc46ab390",
+        "bear": "Polar bear",
+        "createdAt": "2025-01-28T06:16:59.480Z"
+      },
+      "id": "3b49"
+    },
+    {
+      "birds": {
+        "id": "60c8e01f-e11d-4f68-bf1d-01ef88f4bd1a",
+        "bird": "Pallas's Bunting",
+        "createdAt": "2025-06-08T16:48:33.476Z"
+      },
+      "id": "4781"
+    },
+    {
+      "cats": {
+        "id": "44363263-0281-4868-a264-9400ebd3c219",
+        "cat": "American Shorthair",
+        "createdAt": "2024-11-16T19:06:22.433Z"
+      },
+      "id": "55d8"
+    },
+    {
+      "bears": {
+        "id": "eef4bfc5-534c-47ae-bc27-4d9e9ecc5a4c",
+        "bear": "Sloth bear",
+        "createdAt": "2025-05-30T11:55:29.556Z"
+      },
+      "id": "0224"
+    },
+    {
+      "birds": {
+        "id": "a045d0fd-371b-4f43-b25e-20259cce5175",
+        "bird": "Wandering Tattler",
+        "createdAt": "2025-10-19T10:08:34.048Z"
+      },
+      "id": "e905"
+    },
+    {
+      "cats": {
+        "id": "9c898ddb-b7f0-4986-9311-12fc72809562",
+        "cat": "Somali",
+        "createdAt": "2025-04-09T12:19:24.414Z"
+      },
+      "id": "e213"
+    }
+  ]
+}

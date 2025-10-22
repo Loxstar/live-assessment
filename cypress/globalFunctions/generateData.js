@@ -33,22 +33,22 @@ function generateAnimals(numAnimals) {
 
 // Generate 60 animals (20 bears, 20 birds, 20 cats)
 // Add other data types as needed, e.g., dogs, fish, etc.
-const bearData =
+const animalData =
 {
-    bears: generateAnimals(20).filter(animal => animal.bears)
+    animals: generateAnimals(20)
 };
-const birdData =
-{
-    birds: generateAnimals(20).filter(animal => animal.birds)
-};
-const catData =
-{
-    cats: generateAnimals(20).filter(animal => animal.cats),
-};
+// const birdData =
+// {
+//     allBirds: generateAnimals(20).filter(animal => animal.birds)
+// };
+// const catData =
+// {
+//     allCats: generateAnimals(20).filter(animal => animal.cats),
+// };
 
-fs.writeFileSync('bearData.json', JSON.stringify(bearData, null, 2));
-fs.writeFileSync('birdData.json', JSON.stringify(birdData, null, 2));
-fs.writeFileSync('catData.json', JSON.stringify(catData, null, 2));
+fs.writeFileSync('animal.json', JSON.stringify(animalData, null, 2));
+// fs.writeFileSync('birdData.json', JSON.stringify(birdData, null, 2));
+// fs.writeFileSync('catData.json', JSON.stringify(catData, null, 2));
 
 console.log('db.json generated with fake data!');
 
