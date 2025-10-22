@@ -2,4 +2,4 @@
 /live-assessment/cypress/e2e/1-getting-started/*.js
 /live-assessment/cypress/e2e/2-advanced-examples.*js
 /live-assessment/cypress/e2e/practiceTests/tests/assessmentNotes.*.txt
-/live-assessment/cypress/cypress.env.json
+/live-assessment/cypress/support/cypress.env.json
