@@ -37,16 +37,24 @@ const animalData =
 {
     animals: generateAnimals(20)
 };
+// Commented out these variables, but they can be used to separate the json data 
+// instead of putting it into one file
+
+// const allBears = {
+//     allBears: generateAnimals(20)
+// }
 // const birdData =
 // {
-//     allBirds: generateAnimals(20).filter(animal => animal.birds)
+//     allBirds: generateAnimals(20)
 // };
 // const catData =
 // {
-//     allCats: generateAnimals(20).filter(animal => animal.cats),
+//     allCats: generateAnimals(20)
 // };
 
 fs.writeFileSync('animal.json', JSON.stringify(animalData, null, 2));
+// Commented out for the same reason as above variables 
+
 // fs.writeFileSync('birdData.json', JSON.stringify(birdData, null, 2));
 // fs.writeFileSync('catData.json', JSON.stringify(catData, null, 2));
 
