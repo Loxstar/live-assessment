@@ -45,6 +45,7 @@ describe('Fixture assessment practice', () => {
             reader.onload = () => {
                 const dataUrl = reader.result;
                 cy.get(dataUrl).should('include', 'pilots.jpeg')
+                console.log(dataUrl)
             };
         })
     })
