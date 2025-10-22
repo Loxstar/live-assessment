@@ -1,4 +1,4 @@
-// import 'dotenv/config'
+
 
 // ***********************************************
 // This example commands.js shows you how to
@@ -26,31 +26,21 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-// Cypress.Commands.add('apiLogin', (username, password, domain) => {
-//     cy.session(username, () => {
-//         cy.request("POST", domain, {
-//             username,
-//             password,
-//         })
-//     }).then((response) => {
-//         expect(response.status).to.eq(200)
-//     });
-// });
-
-
-// Cypress.Commands.add('webLogin', (username, password, domain, userInput, pwInput, submit, subDom) => {
-//     cy.session(
-//         [username, password],
-//         () => {
-//             cy.visit(domain)
-//             cy.get(userInput).type(username)
-//             cy.get(pwInput).type(password)
-//             cy.get(submit).click()
-//         },
-//         {
-//             validate() {
-//                 cy.request(subDom).its('status').should('eq', 200);
-//             },
-//         }
-//     );
-// });
+Cypress.Commands.add('apiLogin', (username, password, url) => {
+    cy.request({
+        method: "POST",
+        url: url,
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: {
+            user: username,
+            password: password
+        }
+    }).then((response) => {
+        const authToken = response.body.token;
+        cy.window().then((win) => {
+            win.localStorage.setItem('authToken', authToken);
+        });
+    })
+})
